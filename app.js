@@ -5,7 +5,7 @@ function showTime(){
     var sec = dateTime.getSeconds();
     
     const days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-    var war = days[dateTime.getDay()];
+    var waar = days[dateTime.getDay()];
 
     var dinank = dateTime.getDate();
 
@@ -30,7 +30,7 @@ function showTime(){
     document.getElementById('hrs').innerHTML = hrs;
     document.getElementById('min').innerHTML = min;
     document.getElementById('sec').innerHTML = sec;
-    document.getElementById('war').innerHTML = war;
+    document.getElementById('war').innerHTML = waar;
     document.getElementById('dinank').innerHTML = dinank;
     document.getElementById('mahina').innerHTML =mahina;
     document.getElementById('saal').innerHTML = saal;
