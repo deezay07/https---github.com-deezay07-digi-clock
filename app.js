@@ -36,4 +36,4 @@ function showTime(){
     document.getElementById('saal').innerHTML = saal;
 }
 
-setInterval(showTime, 10);
+setInterval(showTime, 500);
